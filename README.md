@@ -5,6 +5,10 @@
 2. [OpenAI ChatGPT API](https://platform.openai.com/docs/api-reference/introduction) 또는 [업스테이지 Solar API](https://developers.upstage.ai/terms-and-policies/solar/terms-of-service) 사용해 내용 요약
 3. 카드뉴스 이미지 템플릿 사용해 이미지 생성
 
+## Demo
+[demo.webm](https://github.com/shinseung428/naver_card_news/assets/17181911/0190f3cd-ad9f-4675-b863-1d42bc8fcf25)
+
+
 ## Results
 ### Sample 1
 News URL: https://n.news.naver.com/mnews/article/421/0007494658
