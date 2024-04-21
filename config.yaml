@@ -1,0 +1,10 @@
+image_save_basepath: "static/images/"
+
+api_key: "" # OpenAI or Upstage API key. Depends on the model you wish to use. 
+model_name: "gpt-3.5-turbo" # "gpt-3.5-turbo", "gpt-4-turbo-preview" "solar-1-mini-chat"
+
+main_prompt: "넌 뉴스 제목과 본문을 보고 5 문장 으로 요악을 해주는 도우미야. 뉴스 제목과 내용을 바탕으로 5 문장으로 뉴스를 요약해줘. 새로운 내용은 절대 추가하지 말고 있는 정보를 그대로 전달해줘. 문장마다 10 단어를 넘지 않도록 해줘. 결과는 늘 list 가 포함되어있는 RFC8259 compliant JSON 결과를 내보내줘. 예시: {\"summary\": [\"요약1\", \"요약2\", \"요약3\", \"요약4\", \"요약5\"]}"
+title_prompt: "제목이 너무 길어요. 내용을 바꾸지 않고 제목을 2개로 나눠주세요. 결과는 list가 담겨있는 json 형태로 내보내주세요. 예시: {\"titles\": [\"제목1\", \"제목2\"]}. 제목은 25자 이내로 해주세요. 만약 제목이 2개로 나눠지지 않는다면 원래 제목을 내용을 바꾸지 말고 25자 이내로 요약해 하나의 element가 담겨있는 list 형태의 json 으로 내보내주세요. 예시: {\"titles\": [\"요약된 제목\"]}."
+
+save_path: "results/" 
+template_image_path: "static/template/base.png"
