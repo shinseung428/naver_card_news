@@ -2,7 +2,7 @@
 
 네이버 뉴스 URL 제공해주면 카드뉴스 형태의 결과를 내보내주는 코드(네이버뉴스 링크만 가능) 
 1. 네이버 뉴스 URL 에서 BeautifulSoup 사용해 제목과 본문 추출
-2. [OpenAI ChatGPT API](https://platform.openai.com/docs/api-reference/introduction) 또는 [업스테이지 Solar API]([https://developers.upstage.ai/terms-and-policies/solar/terms-of-service](https://developers.upstage.ai/docs/capabilities/summarization)) 사용해 내용 요약
+2. [OpenAI ChatGPT API](https://platform.openai.com/docs/api-reference/introduction) 또는 [업스테이지 Solar API](https://developers.upstage.ai/docs/capabilities/summarization) 사용해 내용 요약
 3. 카드뉴스 이미지 템플릿 사용해 이미지 생성
 
 ## Demo
